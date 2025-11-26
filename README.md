@@ -1,27 +1,23 @@
-🧪 Pesticide Usage Analysis (US)
+# 🧪 Pesticide Usage Analysis (US)
 
-This project analyzes county-level pesticide usage for 423 compounds across the contiguous United States. The dataset includes two estimation methods—low (assumes zero when unreported) and high (imputes missing values). By comparing these methods, the analysis highlights how different assumptions impact agricultural risk assessment and public health interpretations.
+This project analyzes county-level pesticide usage for **423 compounds** across the contiguous United States. The dataset includes two estimation methods—**low** (assumes zero for unreported data) and **high** (imputes missing values from nearby districts). Comparing these methods helps reveal how assumptions impact agricultural risk assessments and public health interpretations.
 
-Dataset Columns
+## 🗂️ Dataset Columns
+- **COMPOUND** – Pesticide name  
+- **YEAR** – Measurement year  
+- **STATE / COUNTY / CODES** – Location identifiers  
+- **LOW_ESTIMATE / HIGH_ESTIMATE** – Pesticide usage in kilograms  
 
-COMPOUND – Pesticide name
+## 🎯 Objectives
+- Identify states and counties with the highest pesticide usage  
+- Compare low vs. high estimation methods  
+- Analyze distribution of pesticide usage by state  
+- Explore yearly trends for selected compounds  
 
-YEAR – Measurement year
-
-STATE / COUNTY / CODES – Location identifiers
-
-LOW_ESTIMATE / HIGH_ESTIMATE – Pesticide usage in kilograms
-
-Objectives
-
-Find states and counties with the highest pesticide use
-
-Compare low vs. high estimation methods
-
-Analyze usage distribution by state
-
-Explore yearly trends for selected pesticides
-
-Libraries Used
-
-pandas, numpy, matplotlib, seaborn, missingno, scipy
+## 🛠️ Libraries Used
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- missingno  
+- scipy  
